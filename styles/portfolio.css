@@ -1,47 +1,83 @@
 /* font styles */
-*{
-   margin: 0;
+* {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* banner style */
-.banner{
+.banner {
     background-image: url('../images/banner/banner1.png');
     width: 1600px;
-height: 808px;
+    height: 808px;
 }
 
 
-.banner-title{
+.banner-title {
     font-weight: 700;
-font-size: 65px;
-/* text-align: right; */
-color: #151414;
-margin-left: 845px;
-margin-right: 230px;
-margin-bottom: 80px;
+    font-size: 65px;
+    /* text-align: right; */
+    color: #151414;
+    margin-left: 845px;
+    margin-right: 230px;
+    margin-bottom: 80px;
 }
 
-.banner-description{
+.banner-description {
     font-weight: 400;
-font-size: 16px;
-margin-left: 845px;
-margin-right: 230px;
-margin-bottom: 80px;
+    font-size: 16px;
+    margin-left: 845px;
+    margin-right: 230px;
+    margin-bottom: 80px;
 }
 
-.banner-btn{
+.banner-btn {
     margin-left: 1236px;
-margin-right: 255px;
-padding: 10px;
-font-weight: 600;
-font-size: 20px;
-width: 160px;
-height: 64px;
-border: 2px;
-border-radius: 5px;
-color: #FFFFFF;
-background: #FD6E0A;
+    margin-right: 255px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border: 2px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #FD6E0A;
 }
 
+/* person-text styles */
+.person-text {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    gap: 78px;
+}
 
+.img-back {
+    background: bisque;
+    margin-top: 70px;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+
+.text-title {
+    margin-top: 170px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.text-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.list-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
