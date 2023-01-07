@@ -6,20 +6,19 @@
 
 /* banner style */
 .banner {
-    background-image: url('../images/banner/banner1.png');
-    width: 1600px;
-    height: 808px;
+    
 }
 
 
 .banner-title {
     font-weight: 700;
-    font-size: 65px;
+    font-size: 50px;
     /* text-align: right; */
     color: #151414;
     margin-left: 845px;
     margin-right: 230px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: -500px;
 }
 
 .banner-description {
@@ -32,7 +31,7 @@
 
 .banner-btn {
     margin-left: 1236px;
-    margin-right: 255px;
+    margin-right: 200px;
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
