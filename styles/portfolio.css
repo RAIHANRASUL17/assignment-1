@@ -59,6 +59,7 @@
     height: 723.3px;
     left: 206px;
     top: 939px;
+    border-radius: 200%;
 }
 
 .text-title {
@@ -80,4 +81,47 @@
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+}
+
+/* my plan style */
+.my-plan {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 214.3px;
+}
+
+/* plan container style */
+.plan-container {
+
+    display: flex;
+    text-align: center;
+    gap: 86px;
+    padding: 30px 33px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 60px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+}
+
+.image-icon {
+    justify-content: center;
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 135.96px;
 }
