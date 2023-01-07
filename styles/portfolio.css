@@ -123,5 +123,31 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
-    margin-bottom: 135.96px;
+    margin-bottom: 5px;
+}
+
+/* watch section */
+.watch-image{
+    margin-left: 95px;
+    background-image: url('../images/gradient2.png');
+    background: linear-gradient(90deg, #ff0d0d 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+
+.image-title{
+    margin-left: 200px;
+    font-weight: 700;
+font-size: 40px;
+color:#737272
+
+}
+
+.image-btn{
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
 }
